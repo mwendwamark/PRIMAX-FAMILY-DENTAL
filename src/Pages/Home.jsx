@@ -1,5 +1,5 @@
 import React from "react";
-import IntroSection from "../components/intro-section";
+import IntroSection from "../components/Home-intro-section/intro-section";
 
 const Home = () => {
   return (

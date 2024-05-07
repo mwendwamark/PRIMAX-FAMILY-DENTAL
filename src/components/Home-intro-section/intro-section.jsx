@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import "../styles/intro-section.css";
+import "./intro-section.css";
+import image1 from "../../assets/h-image-1.jpg";
+import image2 from "../../assets/h-image-2.jpeg";
+import image3 from "../../assets/h-image-3.png";
 
-import image1 from "../assets/h-image-1.jpg";
-import image2 from "../assets/h-image-2.jpeg";
-import image3 from "../assets/h-image-3.png";
 
 import { FaArrowCircleRight } from "react-icons/fa";
 import { IoMdTime } from "react-icons/io";
