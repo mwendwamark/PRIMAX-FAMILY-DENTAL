@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import IntroSection from "../components/intro-section";
 
 const Home = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <>
+      <IntroSection />
+    </>
+  );
+};
 
-export default Home
+export default Home;

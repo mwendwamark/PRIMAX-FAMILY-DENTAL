@@ -51,7 +51,7 @@ const Navbar = () => {
               </div>
             </li>
             <li className="appointment-btn">
-              <NavLink to="/book-appointment">Book Appointment</NavLink>
+              <NavLink to="/appointment">Book an Appointment</NavLink>
             </li>
           </ul>
         </div>
