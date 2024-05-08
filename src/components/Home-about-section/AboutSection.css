@@ -1,0 +1,119 @@
+.home-about-section {
+    background-color: #fff;
+    width: 100%;
+    padding: 15px;
+}
+
+.home-about-contents {
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-image-contents {
+    width: 50%;
+    padding: 20px;
+}
+
+
+.home-image-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image-contents img {
+    width: 90%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+
+.home-texts-contents {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.home-about-title h1 {
+    padding: 5px;
+    font-size: 45px;
+    display: flex;
+}
+
+.home-about-subtitle h4 {
+    font-family: var(--text-ff);
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.2px;
+}
+
+.home-about-paragraph {
+    width: 95%;
+    display: flex;
+    align-items: center;
+}
+
+.home-about-paragraph p {
+    line-height: 24px;
+}
+
+.home-about-read-more {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--blue-color);
+}
+
+.home-about-read-more a {
+    color: var(--blue-color);
+    margin-right: 6px;
+    font-size: var(--text-fs);
+    font-family: var(--footer-links-ff);
+}
+
+@media screen and (max-width: 960px) {
+    .home-about-contents {
+        padding: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .home-image-contents {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .home-image-contents img {
+        width: 98%;
+    }
+
+    .home-texts-contents {
+        width: 90%;
+        align-items: center;
+    }
+
+    .home-texts-contents {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .home-about-contents {
+        padding: 5px;
+    }
+
+    .home-image-contents,
+    .home-texts-contents {
+        padding: 10px;
+    }
+}
