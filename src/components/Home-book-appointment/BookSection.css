@@ -1,0 +1,395 @@
+.home-book-appointment-section {
+    width: 100%;
+    padding: 15px;
+    padding-top: 60px;
+    background-color: var(--blue-color);
+    color: var(--background-color);
+}
+
+.book-appointment-contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 10px;
+}
+
+.book-appointment-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.book-appointment-header h1 {
+    font-size: 45px;
+}
+
+.book-appointment-header p {
+    width: 40%;
+    color: var(--background-color);
+    font-family: var(--text-ff);
+    font-weight: 500;
+}
+
+.book-appointment-form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.book-appointment-form form {
+    width: 65%;
+    padding: 5px;
+}
+
+.book-appointment-form-contents {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.book-appointment-button,
+.name-and-contact,
+.treatment-type-and-time {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.treatment-type-field,
+.time-field,
+.name-field,
+.contact-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 48%;
+}
+
+.treatment-type-field label,
+.time-field label,
+.name-field label,
+.contact-field label {
+    font-size: var(--text-fs);
+    font-family: var(--text-ff);
+    font-weight: 600;
+}
+
+.treatment-type-field select,
+.time-field select,
+.name-field input,
+.contact-field input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: var(--text-fs);
+    border-radius: 8px;
+}
+
+.book-appointment-button button {
+    outline: none !important;
+    border: none !important;
+    padding: 12px;
+    background-color: var(--orange-color);
+    color: var(--background-color);
+    font-size: var(--text-fs);
+    font-family: var(--text-ff);
+    font-weight: 500;
+    border-radius: 8px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.book-appointment-button button:hover {
+    cursor: pointer;
+    background-color: var(--background-color);
+    color: var(--links-color);
+
+}
+
+.call-us-now {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.call-us-now-title h5 {
+    font-size: 20px;
+    font-family: var(--text-ff);
+}
+
+.call-us-now-number p {
+    font-family: var(--title-ff);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.call-us-now-text p {
+    color: var(--background-color);
+    font-family: var(--text-ff);
+    font-weight: 400;
+}
+
+.calendar-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.calendar-field label {
+    font-size: var(--text-fs);
+    font-family: var(--text-ff);
+    font-weight: 600;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: var(--text-fs);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.react-datepicker {
+    font-family: var(--text-ff);
+}
+
+.react-datepicker__header {
+    background: linear-gradient(to right, var(--blue-color) 1%, var(--orange-color));
+    border: none;
+}
+
+.react-datepicker__current-month {
+    color: var(--background-color);
+}
+
+.react-datepicker__day-names {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 2rem;
+    line-height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.react-datepicker__day {
+    cursor: pointer;
+}
+
+.react-datepicker__day--disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.react-datepicker__day--selected {
+    background-color: var(--orange-color);
+    color: var(--background-color);
+}
+
+@media screen and (max-width: 1100px) {
+    .book-appointment-form form {
+        width: 60%;
+    }
+
+    .call-us-now {
+        width: 34%;
+    }
+
+    .treatment-type-field select,
+    .time-field select,
+    .name-field input,
+    .contact-field input {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .home-book-appointment-section {
+        padding: 12px;
+        padding-top: 60px;
+    }
+
+    .book-appointment-form {
+        flex-direction: column;
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .book-appointment-form form {
+        width: 80%;
+    }
+
+    .book-appointment-header {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-appointment-header h1 {
+        font-size: 45px;
+    }
+
+    .book-appointment-header p {
+        text-align: center;
+        width: 50%;
+    }
+
+    .treatment-type-field select,
+    .time-field select,
+    .name-field input,
+    .contact-field input {
+        padding: 12px;
+    }
+
+    .call-us-now {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .call-us-now-text {
+        width: 50%;
+        display: flex;
+        text-align: center;
+    }
+
+    .book-appointment-button,
+    .name-and-contact,
+    .treatment-type-and-time {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width:750px) {
+
+    .home-book-appointment-section {
+        padding: 9px;
+        padding-top: 50px;
+    }
+
+    .book-appointment-form form {
+        width: 90%;
+    }
+
+    .treatment-type-field,
+    .time-field,
+    .name-field,
+    .contact-field {
+        gap: 5px;
+        width: 50%;
+    }
+
+    .book-appointment-button,
+    .name-and-contact,
+    .treatment-type-and-time {
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .book-appointment-header h1 {
+        font-size: 40px;
+    }
+
+    .book-appointment-header p {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+
+    .home-book-appointment-section {
+        padding: 5px;
+        padding-top: 50px;
+    }
+
+    .book-appointment-button,
+    .name-and-contact,
+    .treatment-type-and-time {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .calendar-field,
+    .treatment-type-field,
+    .time-field,
+    .name-field,
+    .contact-field {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin-right: auto !important;
+        margin-left: auto;
+    }
+
+    .book-appointment-header h1 {
+        font-size: 32px;
+    }
+
+    .book-appointment-header p {
+        width: 80%;
+    }
+
+
+    .book-appointment-form form {
+        width: 98%;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .call-us-now-text {
+        width: 80%;
+        display: flex;
+        text-align: center;
+    }
+
+    .call-us-now-number p {
+        font-size: 30px;
+    }
+
+    .call-us-now-text p {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .book-appointment-header h1 {
+        font-size: 26px;
+    }
+
+    .book-appointment-header p {
+        width: 90%;
+    }
+
+    .call-us-now-number p {
+        font-size: 24px;
+    }
+}
