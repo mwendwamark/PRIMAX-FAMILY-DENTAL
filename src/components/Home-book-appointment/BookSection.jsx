@@ -10,16 +10,17 @@ const BookSection = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm("service_wmvkm1d", "template_m3k6kqf", form.current, {
-      publicKey: "dpxx1mCJz_BtrNyGF",
-    })
-    .then(
+    emailjs
+      .sendForm("service_wmvkm1d", "template_m3k6kqf", form.current, {
+        publicKey: "dpxx1mCJz_BtrNyGF",
+      })
+      .then(
         () => {
-          console.log('SUCCESS!');
+          console.log("SUCCESS!");
         },
         (error) => {
-          console.log('FAILED...', error.text);
-        },
+          console.log("FAILED...", error.text);
+        }
       );
 
     // Reset form after sending email
@@ -46,6 +47,7 @@ const BookSection = () => {
                   <div className="name-field">
                     <label htmlFor="name">Full Name</label>
                     <input
+                      required
                       type="text"
                       name="name"
                       id="name"
@@ -55,6 +57,7 @@ const BookSection = () => {
                   <div className="contact-field">
                     <label htmlFor="contact">Your Contact</label>
                     <input
+                      required
                       name="contact"
                       type="text"
                       id="contact"
@@ -65,7 +68,11 @@ const BookSection = () => {
                 <div className="treatment-type-and-time">
                   <div className="treatment-type-field">
                     <label htmlFor="treatment-type">Treatment Type</label>
-                    <select id="treatment-type" name="treatment_option">
+                    <select
+                      id="treatment-type"
+                      name="treatment_option"
+                      required
+                    >
                       <option value="">Select Treatment</option>
                       <option value="Oral Cleaning & Whitening">
                         Oral Cleaning & Whitening
@@ -89,7 +96,7 @@ const BookSection = () => {
                   </div>
                   <div className="time-field">
                     <label htmlFor="time">Select Time</label>
-                    <select id="time" name="time">
+                    <select id="time" name="time" required>
                       <option value="">Select Time</option>
                       <option value="">Select Time</option>
                       <option value="8am-10am">8am-10am</option>
@@ -113,6 +120,7 @@ const BookSection = () => {
                     minDate={new Date()} // Disable past dates
                     placeholderText="Select Date"
                     name="date"
+                    required
                   />
                 </div>
                 <div className="book-appointment-button">

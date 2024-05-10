@@ -228,6 +228,13 @@
         align-items: center;
     }
 
+    .home-content-paragraph {
+        display: flex;
+        align-items: center;
+    }
+    .home-content-paragraph p {
+        text-align: center;
+    }
     .home-content-texts h1 {
         text-align: center;
     }
