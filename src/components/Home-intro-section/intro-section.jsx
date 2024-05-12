@@ -11,6 +11,7 @@ import { IoMdTime } from "react-icons/io";
 import { MdOutlinePhone } from "react-icons/md";
 import { MdPermContactCalendar } from "react-icons/md";
 
+
 const IntroSection = () => {
   return (
     <>
@@ -25,10 +26,12 @@ const IntroSection = () => {
 
                 <div className="home-content-paragraph">
                   <p className="p-settings">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates dolorem dignissimos incidunt animi. Commodi,
-                    laudantium neque. Numquam sapiente rerum, distinctio alias
-                    nisi voluptates? In.
+                    Welcome to our dental practice, where smiles are crafted and
+                    confidence is restored. At <span>Primax Family Dental</span>,
+                    we're dedicated to providing exceptional dental care
+                    tailored to your unique needs. Discover the difference a
+                    healthy smile can make in your life – schedule your
+                    appointment today!
                   </p>
                 </div>
 

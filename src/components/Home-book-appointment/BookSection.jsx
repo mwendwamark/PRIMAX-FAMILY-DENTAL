@@ -1,12 +1,39 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./BookSection.css";
 import emailjs from "@emailjs/browser";
+import { FaCheck } from "react-icons/fa";
+import { IoClose } from "react-icons/io5";
+
 
 const BookSection = () => {
   const form = useRef();
-  const [selectedDate, setSelectedDate] = useState(null); // Added selectedDate state
+  const [selectedDate, setSelectedDate] = useState(null); 
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+    useEffect(() => {
+      let successTimeout;
+      let errorTimeout;
+
+      if (isSuccess) {
+        successTimeout = setTimeout(() => {
+          setIsSuccess(false);
+        }, 3000);
+      }
+
+      if (isError) {
+        errorTimeout = setTimeout(() => {
+          setIsError(false);
+        }, 3000);
+      }
+
+      return () => {
+        clearTimeout(successTimeout);
+        clearTimeout(errorTimeout);
+      };
+    }, [isSuccess, isError]);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -17,15 +44,18 @@ const BookSection = () => {
       .then(
         () => {
           console.log("SUCCESS!");
+          setIsSuccess(true);
+          setIsError(false);
         },
         (error) => {
           console.log("FAILED...", error.text);
+          setIsError(true);
+          setIsSuccess(false);
         }
       );
 
-    // Reset form after sending email
     form.current.reset();
-    setSelectedDate(null); // Reset selectedDate
+    setSelectedDate(null); 
   };
 
   return (
@@ -42,6 +72,18 @@ const BookSection = () => {
 
           <div className="book-appointment-form">
             <form onSubmit={sendEmail} ref={form}>
+              {isSuccess && (
+                <div className="success-animation">
+                  <p>Email sent successfully!</p>{" "}
+                  <FaCheck fontSize="16px" color="green" />
+                </div>
+              )}
+              {isError && (
+                <div className="error-animation">
+                  <p>Failed to send email. Please try again.</p>
+                  <IoClose />
+                </div>
+              )}
               <div className="book-appointment-form-contents">
                 <div className="name-and-contact">
                   <div className="name-field">

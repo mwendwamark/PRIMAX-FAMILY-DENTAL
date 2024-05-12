@@ -6,6 +6,30 @@
     color: var(--background-color);
 }
 
+.success-animation {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(85, 255, 246, 0.8);
+    color: green;
+    border-radius: 5px;
+}
+.error-animation p,
+.success-animation p {
+    margin-right: 4px;
+}
+
+.error-animation {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(255, 85, 85, 0.8);
+    color: red;
+    border-radius: 5px;
+}
+
 .book-appointment-contents {
     display: flex;
     flex-direction: column;
