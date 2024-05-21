@@ -60,7 +60,7 @@ const BookSection = () => {
 
   return (
     <>
-      <div className="home-book-appointment-section section">
+      <div className="home-book-appointment-section ">
         <div className="book-appointment-contents container">
           <div className="book-appointment-header">
             <h1>Book an Appointment</h1>

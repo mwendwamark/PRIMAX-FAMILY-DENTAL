@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/About.css";
 import AboutImage from "../assets/about-image.png";
+import MeetDoctor from "../components/Home-meet-dentists/MeetDoctor";
 
 const About = () => {
   return (
@@ -60,6 +61,7 @@ const About = () => {
             </div>
           </div>
         </div>
+        <MeetDoctor />
       </div>
     </>
   );

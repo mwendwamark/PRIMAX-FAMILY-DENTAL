@@ -47,6 +47,7 @@
     padding: 5px;
     font-size: 45px;
     display: flex;
+    color: var(--title-color);
 }
 
 .home-about-subtitle h4 {
