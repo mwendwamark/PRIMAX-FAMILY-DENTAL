@@ -26,11 +26,14 @@
     /* font size */
     --navbar-fs: 17px;
     --text-fs: 16px;
-
 }
 
 body {
     background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+    font-family: var(--text-ff);
+    height: 100%;
 }
 
 * {
@@ -39,9 +42,7 @@ body {
     box-sizing: border-box;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     font-family: var(--title-ff);
 }
 
@@ -49,8 +50,7 @@ a {
     text-decoration: none;
 }
 
-li,
-ul {
+li, ul {
     list-style: none;
 }
 
@@ -79,3 +79,22 @@ ul {
     letter-spacing: -.2px;
     font-weight: var(--text-fw);
 }
+
+/* html, body, #root, .app-container {
+    height: 100%;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.footer {
+    background-color: var(--title-color);
+    padding: 20px;
+} */
