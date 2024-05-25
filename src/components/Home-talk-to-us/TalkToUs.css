@@ -1,0 +1,126 @@
+.talk-to-us-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 80px 0px 60px;
+}
+
+.talk-to-us {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+
+.talk-to-us-image-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.talk-to-us-image-section img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 80%;
+}
+
+.image-text-contents {
+    border-radius: 0px 0px 12px 12px;
+    background-color: var(--blue-color);
+    width: 80%;
+    color: var(--background-color);
+    padding: 50px 20px 50px;
+    text-align: center;
+}
+
+.image-text-contents h4 {
+    font-size: 24px;
+    font-family: var(--text-ff);
+    font-weight: 700;
+}
+
+.talk-to-us-contents-section {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
+}
+
+.talk-to-us-contents-section h1 {
+    font-size: 45px;
+}
+
+.talk-to-us-contents-section p {
+    font-family: var(--text-ff);
+    font-size: 18px;
+}
+
+.talk-to-us-email {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--orange-color);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 4px;
+    color: var(--background-color);
+}
+
+.talk-to-us-email-icon {
+    background-color: white;
+    padding: 8px;
+    font-size: 34px;
+    color: var(--orange-color);
+}
+
+.talk-to-us-phone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--gradient-color);
+    width: fit-content;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+.talk-to-us-phone-icon {
+    background-color: white;
+    padding: 5px;
+    font-size: 34px;
+    /* color: var(--orange-color); */
+}
+
+@media screen and (max-width: 1024px) {
+    .talk-to-us {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .talk-to-us-image-section {
+        width: 100%;
+    }
+
+    .talk-to-us-image-section img {
+        width: 80%;
+    }
+
+    .talk-to-us-contents-section {
+        width: 80%;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .image-text-contents,
+    .talk-to-us-image-section img,
+    .talk-to-us-contents-section {
+        width: 95%;
+
+    }
+}
