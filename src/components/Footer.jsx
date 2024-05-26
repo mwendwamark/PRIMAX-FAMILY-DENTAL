@@ -90,11 +90,10 @@ const Footer = () => {
             </div>
             <div className="footer-addresses">
               <div className="addresses">
-                <h4 className="footer-titles">Address                  <IoLocationOutline />
-</h4>
-                <p>
-                  1st Floor Hallo Arcade, Thika{" "}
-                </p>
+                <h4 className="footer-titles">
+                  Address <IoLocationOutline />
+                </h4>
+                <p>1st Floor Hallo Arcade, Thika </p>
                 <p>Opposite Naivas Supermarket</p>
               </div>
               <div className="phone-contacts">

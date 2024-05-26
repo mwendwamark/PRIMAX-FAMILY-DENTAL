@@ -36,7 +36,7 @@ const IntroSection = () => {
                 </div>
 
                 <div className="home-content-btn">
-                  <NavLink to="/book-appointment">Book an appointment</NavLink>
+                  <NavLink to="/appointment">Book an appointment</NavLink>
                 </div>
               </div>
 

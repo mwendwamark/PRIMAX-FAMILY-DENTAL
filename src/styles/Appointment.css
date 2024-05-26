@@ -1,0 +1,92 @@
+.book-appointment-page {
+    width: 100%;
+    background-color: var(--background-color);
+    padding: 100px 10px 50px;
+    color: var(--text-color) !important;
+}
+
+.book-appointment-page select {
+    background-color: #fff;
+    color: var(--text-color);
+}
+
+.book-appointment-page .book-appointment-header {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
+}
+
+.book-appointment-page .book-appointment-header h1 {
+    font-size: 45px;
+}
+
+.book-appointment-page .book-appointment-header p {
+    color: var(--text-color);
+    font-family: var(--text-ff);
+    font-weight: 500;
+}
+
+.book-appointment-page .call-us-now-text p {
+    color: var(--text-color);
+}
+
+.book-appointment-page .book-appointment-button button {
+    transition: 0.5s linear;
+}
+
+.book-appointment-page .book-appointment-button button:hover {
+    cursor: pointer;
+    background-color: var(--blue-color);
+    color: var(--background-color)
+}
+
+.book-appointment-page .description-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+.book-appointment-page .description-field label {
+    font-size: var(--text-fs);
+    font-family: var(--text-ff);
+    font-weight: 600;
+}
+
+
+.book-appointment-page .description-field textarea {
+    width: 100%;
+}
+
+.book-appointment-page .description-field textarea {
+    padding: 12px;
+    border: none;
+    outline: none;
+    font-size: var(--text-fs);
+    border-radius: 8px;
+    width: 100%;
+    resize: none !important;
+}
+
+@media screen and (max-width: 1024px) {
+    .book-appointment-page .book-appointment-header {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 465px) {
+
+    .book-appointment-page .description-field {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+        margin-right: auto !important;
+        margin-left: auto;
+    }
+}

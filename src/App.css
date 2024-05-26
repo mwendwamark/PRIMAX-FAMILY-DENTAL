@@ -42,7 +42,9 @@ body {
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: var(--title-ff);
 }
 
@@ -50,7 +52,8 @@ a {
     text-decoration: none;
 }
 
-li, ul {
+li,
+ul {
     list-style: none;
 }
 
