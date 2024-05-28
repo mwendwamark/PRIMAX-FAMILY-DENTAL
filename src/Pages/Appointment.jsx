@@ -1,4 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
+import TalkToUs from "../components/Home-talk-to-us/TalkToUs";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "../styles/Appointment.css";
@@ -200,6 +201,7 @@ const Appointment = () => {
           </div>
         </div>
       </div>
+      <TalkToUs />
     </>
   );
 };
