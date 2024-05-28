@@ -3,6 +3,7 @@ import "../styles/Contacts.css";
 import { IoLocationOutline } from "react-icons/io5";
 import { LuMail } from "react-icons/lu";
 import { MdOutlinePhone } from "react-icons/md";
+import Map from "../components/Map";
 
 const Contacts = () => {
   return (
@@ -54,6 +55,7 @@ const Contacts = () => {
           </div>
         </div>
       </div>
+      <Map/>
     </>
   );
 };
