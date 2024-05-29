@@ -130,6 +130,14 @@ const Footer = () => {
               </NavLink>
             </div>
           </section>
+
+          <section className="made-by">
+            <p>
+              Website by:
+              <a href="https://mark-nthei.vercel.app/">Mark Mwendwa</a>
+              <span>mwendwamark96@gmail.com</span>
+            </p>
+          </section>
         </footer>
       </div>
     </>

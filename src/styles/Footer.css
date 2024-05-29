@@ -140,6 +140,33 @@
     z-index: 1;
 }
 
+
+.made-by {
+    display: flex;
+    align-items: center;
+    color: var(--background-color);
+
+}
+
+.made-by p {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.made-by p a {
+    color: var(--links-color);
+    transition: ease-in 0.5;
+}
+
+.made-by p span {
+    color: var(--links-color);
+}
+
+.made-by p a:hover {
+    color: var(--background-color);
+}
+
 @media screen and (max-width: 768px) {
 
     .footer-contents-section {
