@@ -43,7 +43,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -62,7 +62,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -81,7 +81,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -100,7 +100,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -119,7 +119,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -138,7 +138,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -157,7 +157,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -176,7 +176,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>
@@ -195,7 +195,7 @@ const ServicesSection = () => {
                 </p>
               </div>
               <div className="learn-more-services">
-                <NavLink to="/learn-more-services">learn more</NavLink>
+                <NavLink to="/services">learn more</NavLink>
                 <FaArrowRight />
               </div>
             </div>

@@ -1,0 +1,123 @@
+.accordion-contents {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.accordion-heading {
+    margin-bottom: 40px;
+}
+
+.accordion-heading h1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    color: #333;
+}
+
+.accordion-heading span {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    color: var(--links-color);
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.accordion-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 8px;
+    text-align: left;
+}
+
+.wrapper {
+    border-bottom: 1px solid #ddd;
+}
+
+.question-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.question-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+    border: none;
+    padding: 16px;
+    font-size: 16px;
+    text-align: left;
+}
+
+.question-content {
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--blue-color);
+    font-family: var(--text-ff);
+}
+
+.question-container.active {
+    font-weight: bold;
+    opacity: .7;
+}
+
+
+.arrow {
+    font-size: 24px;
+    transition: transform 0.3s;
+    color: var(--blue-color);
+}
+
+.arrow.active {
+    transform: rotate(180deg);
+}
+
+.answer-container {
+    overflow: hidden;
+    transition: height 0.3s;
+}
+
+.answer-content {
+    padding: 20px;
+    font-size: var(--text-ff);
+    color: var(--links-color);
+    font-family: var(--text-ff) !important;
+    word-spacing: 3px;
+    background-color: #fff;
+}
+
+.watch-video {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+
+.answer-content p {
+    margin: 0 0 8px 0;
+}
+
+.answer-content a {
+    color: var(--orange-color);
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .accordion-heading span {
+        display: block;
+        width: 88%;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .accordion-heading span {
+        display: block;
+        width: 95%;
+    }
+}
