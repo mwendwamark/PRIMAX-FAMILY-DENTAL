@@ -93,7 +93,7 @@ const IntroSection = () => {
                   </div>
                   <div className="table-text">
                     <p className="p-settings">Emergency-line</p>
-                    <p className="table-lower-text">+254 113 116911</p>
+                    <p className="table-lower-text">0113 116911</p>
                   </div>
                 </div>
               </div>

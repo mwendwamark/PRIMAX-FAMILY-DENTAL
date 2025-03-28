@@ -178,7 +178,7 @@ const BookSection = () => {
                 </h5>
               </div>
               <div className="call-us-now-number">
-                <p>+254 712 345 678</p>
+                <p>0113 116911</p>
               </div>
               <div className="call-us-now-text">
                 <p>

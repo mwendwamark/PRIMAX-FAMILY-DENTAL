@@ -47,7 +47,7 @@ const Navbar = () => {
             <li>
               <div className="emergency-call-contents">
                 <MdOutlinePhone className="phone-icon" />{" "}
-                <p>+254 113 116911</p>
+                <p>0113 116911</p>
               </div>
             </li>
             <li className="appointment-btn">

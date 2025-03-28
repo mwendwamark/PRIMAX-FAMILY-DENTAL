@@ -14,7 +14,7 @@ const MeetDoctor = () => {
       <div className="meet-doctors">
         <div className="meet-doctors-section container">
           <div className="meet-doc-title">
-            <h1>Meet our experienced dentists</h1>
+            <h1>Meet our experienced dentists</h1> 
             <h4>
               Our team of experienced dentists brings years of expertise and a passion for oral health to every patient interaction. Each member of our team is dedicated to providing compassionate, personalized care that meets your unique dental needs.
             </h4>
