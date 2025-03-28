@@ -4,9 +4,9 @@ import "./MeetDoctors.css";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
-import DocImage1 from "../../assets/doc-image1.jpg"
-import DocImage2 from "../../assets/doc-image2.jpg"
-import DocImage3 from "../../assets/doc-image3.jpg";
+import DocImage1 from "../../assets/maleDoc.jpg"
+import DocImage2 from "../../assets/femaleDoc.jpg"
+import DocImage3 from "../../assets/maleDoc.jpg";
 
 const MeetDoctor = () => {
   return (
@@ -16,9 +16,7 @@ const MeetDoctor = () => {
           <div className="meet-doc-title">
             <h1>Meet our experienced dentists</h1>
             <h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto officia voluptas alias consequuntur omnis repudiandae
-              molestiae id debitis quia praesentium
+              Our team of experienced dentists brings years of expertise and a passion for oral health to every patient interaction. Each member of our team is dedicated to providing compassionate, personalized care that meets your unique dental needs.
             </h4>
           </div>
 
@@ -31,7 +29,7 @@ const MeetDoctor = () => {
                 />
               </div>
               <div className="doctor-details">
-                <div className="doc-name"><h4>Patrick Williamson</h4></div>
+                <div className="doc-name"><h4>Patrick Mugendi</h4></div>
                 <div className="doc-experties"><p>Braces Expert</p></div>
                 <div className="doc-handles">
                   <NavLink to="/">
@@ -54,7 +52,7 @@ const MeetDoctor = () => {
                 />
               </div>
               <div className="doctor-details">
-                <div className="doc-name"><h4>Karla Haden</h4></div>
+                <div className="doc-name"><h4>Karla</h4></div>
                 <div className="doc-experties"><p>General Dentistry</p></div>
                 <div className="doc-handles">
                   <NavLink to="/">
@@ -77,7 +75,7 @@ const MeetDoctor = () => {
                 />
               </div>
               <div className="doctor-details">
-                <div className="doc-name"><h4>Mark Wallace</h4></div>
+                <div className="doc-name"><h4>Dennis Wachira</h4></div>
                 <div className="doc-experties"><p>Dental Specialist</p></div>
                 <div className="doc-handles">
                   <NavLink to="/">

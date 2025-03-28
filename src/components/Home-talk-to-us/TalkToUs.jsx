@@ -31,8 +31,7 @@ const TalkToUs = () => {
               primaxfamilydental@gmail.com
             </p>
             <p className="talk-to-us-phone">
-              <MdOutlinePhone className="talk-to-us-phone-icon" /> +254 712 345
-              678
+              <MdOutlinePhone className="talk-to-us-phone-icon" /> +254 113 116911
             </p>
           </div>
         </div>

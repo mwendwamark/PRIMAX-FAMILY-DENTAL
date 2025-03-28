@@ -36,8 +36,7 @@ const Contacts = () => {
               </div>{" "}
               <h4 className="c-item-header">Call Us</h4>
               <p>
-                +254 712 345 678 <br />
-                +254 712 345 678
+                +254 113 116911
               </p>
             </div>
 

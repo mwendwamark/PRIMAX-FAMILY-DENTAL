@@ -98,8 +98,7 @@ const Footer = () => {
               </div>
               <div className="phone-contacts">
                 <h4 className="footer-titles">Phone</h4>
-                <p>+254 712 345 678</p>
-                <p>+254 712 345 678</p>
+                <p>+254 113 116911</p>
               </div>
             </div>
           </section>
@@ -134,7 +133,7 @@ const Footer = () => {
           <section className="made-by">
             <p>
               Website by:
-              <a href="https://mark-nthei.vercel.app/">Mark Mwendwa</a>
+              <a href="https://nthei.vercel.app/" target="_blank" rel="noopener noreferrer">Mark Mwendwa</a>
               <span>mwendwamark96@gmail.com</span>
             </p>
           </section>

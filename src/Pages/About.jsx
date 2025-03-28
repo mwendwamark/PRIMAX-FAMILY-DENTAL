@@ -18,21 +18,13 @@ const About = () => {
             </div>
             <div className="home-about-subtitle">
               <h4>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id
-                vero eveniet beatae sed natus odio velit! Veritatis delectus
-                eaque a nam earum quisquam blanditiis!
+                At Primax Family Dental, we're dedicated to providing exceptional dental care in a comfortable and welcoming environment. Our team of experienced professionals is committed to helping you achieve optimal oral health.
               </h4>
             </div>
 
             <div className="home-about-paragraph">
               <p className="p-settings">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia
-                fugit magni consectetur expedita totam delectus, dolor, nostrum
-                consequuntur libero harum alias cumque impedit repudiandae nobis
-                eius doloribus possimus accusantium blanditiis. Tempore quos
-                quas architecto unde doloribus placeat voluptas veniam, pariatur
-                maiores. Quaerat ipsam deserunt molestiae commodi cupiditate
-                accusantium?
+                With years of experience in the field, our dental practice offers a wide range of services from routine check-ups to advanced dental procedures. We believe in building long-term relationships with our patients, providing personalized care that meets your unique needs. Our state-of-the-art facility and modern equipment ensure you receive the highest quality care in a safe and comfortable setting.
               </p>
             </div>
           </div>
@@ -41,14 +33,14 @@ const About = () => {
         <div className="about-statistics-section container">
           <div className="about-statistics-header">
             <h4>
-              Our mission is to sreve the patient as much as possible and
+              Our mission is to serve the patient as much as possible and
               solving your dental problems fast
             </h4>
           </div>
 
           <div className="about-statistics">
             <div className="statistics-info">
-              <h1>3048+</h1>
+              <h1>1100+</h1>
               <p>Patients Served</p>
             </div>
             <div className="statistics-info">
@@ -56,7 +48,7 @@ const About = () => {
               <p>Expert Dentists</p>
             </div>
             <div className="statistics-info">
-              <h1>12408+</h1>
+              <h1>35408+</h1>
               <p>Hours Served</p>
             </div>
           </div>
